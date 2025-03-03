@@ -1,0 +1,13 @@
+Headings
+h1-h6
+
+inline and block elements
+
+tags and elements
+semantics
+void elements
+
+forms -label (for) , input(id name )
+tables - colspan and  rowspan
+
+
