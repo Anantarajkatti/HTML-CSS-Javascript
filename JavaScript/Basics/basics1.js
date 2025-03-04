@@ -129,12 +129,82 @@
 // they are codeblocks mainly used for Error handling . The series of statements/code block which has to be watched for errors/exceptions are kept in
 // try block which executes first. if any error occurs error block executes. finally is a block which executes despite of what  result is
 
-try {
-  let variable = 12;
-  if (variable >= 15) throw { name: "error", message: "not in range" };
-  else console.log("error is not thrown");
-} catch (error) {
-  console.log(error.name);
-} finally {
-  console.log("try,catch is learnt");
+// try {
+//   let variable = 12;
+//   if (variable >= 15) throw { name: "error", message: "not in range" };
+//   else console.log("error is not thrown");
+// } catch (error) {
+//   console.log(error.name);
+// } finally {
+//   console.log("try,catch is learnt");
+// }
+
+
+//Functions---------------------------------------------------------------------------------------------------------------------------------------
+// reusable codeblocks that are written for specific purpose
+
+function functionName(){ 
+    console.log("function executed")    // declation
 }
+
+functionName()              // call
+
+
+// //named function
+// function greet() {}
+// greet()
+
+// //anonymous function -- cannot be hoisted function declaration
+// const greet=function(){}
+// greet()
+
+// //arraow function---- concised syntax, doesn't have its own "this"(inherits from surrounding scope)
+
+// const greet=(parameters)=>{}
+// greet()
+
+//immediately invoked function -- used to avoid polluting global scope
+// (function(){
+//     console.log("function executed")
+// })()
+
+//callback functions- used for async opearations
+// functions passed as argument of another function
+// function function1(callback){
+//     callback()
+// }
+// function function2(){}
+
+// function1(function2)
+
+// higherOrder functions-funnctions
+// function that takes functions as arguments or returns function
+// //Ex:       function opearate(a,b,func){
+//                 return func(a,b)
+//                 }
+
+//           function multiply(a,b){
+//             return a*b
+//           }
+
+//           operate(2,3,multiply)
+
+//constructor functions--- to create object
+// function Person(name, age) {
+//   this.name = name;
+//   this.age = age;
+// }
+
+// const abhi = new Person("abhi", "27");
+
+// rest parameter in function
+// it specifirs all numerours parameters we give
+//functioncall(p1,p2,p3,p4........)
+//  function functionName(...args){
+//     console.log(args)// is an Array
+//  }
+
+
+
+
+
