@@ -7,12 +7,28 @@
     <title></title>
     <meta name="description" content="" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="stylesheet" href="" />
+    <link rel="stylesheet" href="./basicsCss.css" />
   </head>
   <body>
     <h1>Heading</h1>
     <h3>Heading</h3>
     <h6>Heading</h6>
+
+    <div class="table">
+      <table>
+        <tr>
+          <th>Heading 1</th>
+          <th>Haeding 2</th>
+        </tr>
+        <tr>
+          <td rowspan="2">row</td>
+          <td>row</td>
+        </tr>
+        <tr>
+          <td>row</td>
+        </tr>
+      </table>
+    </div>
 
     <div class="form">
       <form>
@@ -20,8 +36,19 @@
         <input type="text" id="name" />
         <label for="male">Male</label>
         <input type="radio" id="male" />
+        <select size="2" multiple>
+          <option>option1</option>
+          <option value="option2" selected>option2</option>
+          <option>option3</option>
+          <option>option 4</option>
+        </select>
       </form>
     </div>
+    <iframe
+      width="500px"
+      height="300px"
+      src="https://www.youtube.com/embed/v=F8QMo4SDqK4?autoplay=1&mute=1"
+    ></iframe>
 
     <script src="" async defer></script>
   </body>
