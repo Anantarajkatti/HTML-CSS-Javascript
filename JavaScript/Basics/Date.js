@@ -55,6 +55,7 @@ para.innerHTML= today
 
 let todayDate= new Date(today.getDate()+1)
 console.log(todayDate.getTime()); //1742105453618 in ms
+
 console.log(todayDate.getHours())
 console.log(todayDate.getMinutes())
 
