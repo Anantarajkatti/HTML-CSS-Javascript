@@ -49,5 +49,23 @@
 // locatioin.replace(" https://www.google.com/?authuser=0") // navigates to new url no back button
 // location.reload()
 
+//history
+
+// history.back() // moves to back
+// history.forward() // move forward
+
+
+//alert, confirm and prompt
+
+const al= alert(" hhi hello")
+console.log(al) // undefined
+
+const male=confirm("male")
+console.log(male) // return true on okay
+                  // return false on cancel
+
+const value=prompt("mention value")
+console.log(value) // return entered value
+
 
 
